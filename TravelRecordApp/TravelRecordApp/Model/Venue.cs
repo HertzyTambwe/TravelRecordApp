@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using TravelRecordApp.Helpers;
 
 namespace TravelRecordApp.Model
@@ -43,7 +42,7 @@ namespace TravelRecordApp.Model
 
     public class VenueRoot
     {
-        public Response response { get; set; } 
+        public Response response { get; set; }
 
         public static string GenerateURL(double latitude, double longitude)
         {
